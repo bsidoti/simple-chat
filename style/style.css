@@ -1,0 +1,94 @@
+body {
+	min-width: 920px;
+}
+#main {
+	width: 920px;
+	height: 400px;
+	position:relative;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+#left{
+	width:750px;
+	height:400px;
+	position:absolute;
+	top:0;
+	left:0;
+	border-right:1px solid black;
+}
+#right-box {	
+	position:absolute;
+	top:0;
+	right:0;
+	width:170px;
+	height:400px;
+}
+#right-box .link{
+	text-decoration:none;
+	color:black;
+}
+#right-box .link:hover{
+	text-decoration:underline;
+}
+#bottom-bar {
+	position:absolute;
+	bottom:0;
+	width: 800px;
+}
+#bottom-bar input[type=text] {
+	width:680px;
+	height: 40px;
+}
+#header {
+	text-align:center;
+	margin-bottom:5px;
+}
+h1 {	
+	font-size:70px;
+	font-weight:bold;
+	margin:20px;
+}
+h2 {
+	font-size: 20px;
+	font-weight:bold;
+	margin:5px;
+}
+h3 {
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:4px;
+}
+#login {
+	text-align:center;
+	width: 200px;
+	height: 300px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+#my-info, #others-info {
+	padding:5px;
+}
+#chat-box {
+	overflow-y:auto;
+	height:354px;
+}
+.message-box {
+	padding:5px;
+	margin:5px;
+	position:relative;
+	font-size:18px;
+	border-top:1px grey solid
+}
+.message-box.first{
+	border:none;
+}
+#chat-box .msg-name {
+	font-weight:bold;
+}
+#chat-box .msg-timestamp {
+	float:right;
+	font-size:14px;
+}
+#chat-box .message {
+	display:block;
+}
